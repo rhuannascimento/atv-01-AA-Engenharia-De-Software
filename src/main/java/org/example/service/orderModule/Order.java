@@ -1,4 +1,11 @@
 package org.example.service.orderModule;
 
-public class Order {
+import org.example.service.paymentModule.PaymentMethod;
+
+public abstract class Order {
+    private PaymentMethod paymentMethod;
+
+    public Order(PaymentMethod paymentMethod){
+        this.paymentMethod = paymentMethod;
+    }
 }

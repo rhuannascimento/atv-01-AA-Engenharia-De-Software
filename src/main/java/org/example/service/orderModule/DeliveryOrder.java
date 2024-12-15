@@ -11,7 +11,7 @@ public class DeliveryOrder extends Order{
         this.deliveryMan = deliveryMan;
     }
 
-    public void initOerder(){
+    public void initOrder(){
         deliveryMan.callDeliveryMan();
     }
 }
